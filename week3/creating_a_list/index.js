@@ -10,8 +10,7 @@ document.body.append(newHeading);
 for(var i = 0; i < 10; i++) {
     var newHeading = document.createElement("h1");
     newHeading.textContent = "Hello World";
-    newHeading.style.backgroundColor = "red";
-    newHeading.style.color = "white";
+    newHeading.setAttribute("style", "background-color: red; color: white;");
     document.body.append(newHeading);
 }
 
