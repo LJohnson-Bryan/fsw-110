@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <h1 class="tc">Simple Calculators</h1>
+        <div class="container tc mt-4 add">
+            <label>Add These Numbers: </label>
+            <br />
+            <input type="text" id="additionNum1" placeholder="Number 1"/>
+            + 
+            <input type="text" id="additionNum2" placeholder="Number 2"/>
+            <br />
+            <label>Result: </label>
+            <label id="additionOutput">0</label>
+            <br />
+            <button id="addButton">Add These!</button>
+        </div>
+        <div class="container tc mt-4 subtract">
+            <label>Subtract These Numbers: </label>
+            <br />
+            <input type="text" id="subtractionNum1" placeholder="Number 1"/>
+            - 
+            <input type="text" id="subtractionNum2" placeholder="Number 2"/>
+            <br />
+            <label>Result: </label>
+            <label id="subtractionOutput">0</label>
+            <br />
+            <button id="subtractionButton">Subtract These!</button>
+        </div>
+
+        <div class="container tc mt-4 multiply">
+            <label>Multiply These Numbers: </label>
+            <br />
+            <input type="text" id="multiplyNum1" placeholder="Number 1"/>
+            * 
+            <input type="text" id="multiplyNum2" placeholder="Number 2"/>
+            <br />
+            <label>Result: </label>
+            <label id="multiplyOutput">0</label>
+            <br />
+            <button id="multiplyButton">Multiply These!</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

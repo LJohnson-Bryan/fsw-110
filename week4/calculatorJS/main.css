@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 576px){
+    .container {
+    max-width: 540px;
+}}
+        
+@media (min-width: 768px){
+    .container {
+    max-width: 720px;
+}}
+         
+@media (min-width: 992px){
+    .container {
+    max-width: 960px;
+}}
+        
+@media (min-width: 1200px){
+    .container {
+    max-width: 1040px;
+}}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px 0px;
+    border-radius: 9999px;
+    color: white;
+}
+
+.add {
+    background: linear-gradient(to bottom, green, lightgreen);
+}
+
+.subtract {
+    background: linear-gradient(to bottom, red, pink);
+}
+
+.multiply {
+    background: linear-gradient(to bottom, blue, lightblue);
+}
+
+.tc {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 4em;
+}
