@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Airlines:GO</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <main>
+            <div class="center-form">
+                <h1>Airlines:GO</h1>
+                <h3>Fly places.</h3>
+                <form name="flyForm">
+                    <input type="text" name="firstName" placeholder="First Name" required/>
+                    <input type="text" name="lastName" placeholder="Last Name" required/>
+                    <input type="number" name="age" placeholder="Age" required/>
+                    
+                    <div class="center-content"><input type="radio" name="gender" value="male" required/> <label for="male">Male</label></div>
+                    <div class="center-content"><input type="radio" name="gender" value="female" required/> <label for="female">Female</label></div>
+                    <select name="placeToFly" required>
+                        <option value="" selected disabled hidden>Choose one..</option>
+                        <option value="hawaii">Hawaii</option>
+                        <option value="paris">Paris</option>
+                        <option value="rome">Rome</option>
+                      </select>
+                      <p>Dietary Restrictions</p>
+                      <div class="center-content"><input type="checkbox" name="vegetarian" value="Vegetarian"/> <label for="dietary">Vegetarian</label></div>
+                      <div class="center-content"><input type="checkbox" name="kosher" value="Kosher" /> <label for="dietary">Kosher</label></div>
+                      <div class="center-content"><input type="checkbox" name="lactoseFree" value="Lactose-Free"/> <label for="dietary">Lactose-Free</label></div>
+                      <div class="center-content"><input type="checkbox" name="vegan" value="Vegan"/> <label for="dietary">Vegan</label></div><br>
+                      <input type="submit" id="submit" value="Send Form Request" />
+                </form>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
